@@ -11,6 +11,10 @@ This mod adds a **Super Pickaxe** to Minecraft that:
 - Has a custom crafting recipe (3 cobblestone on top, 2 sticks below)
 - Gives you torches as you mine (1 torch per 18 blocks mined)
 
+## Download
+
+**[Download superpickaxe-1.0.jar](build/libs/superpickaxe-1.0.jar)**
+
 ## Prerequisites
 
 You need Java 17 installed on your Mac. Check with:
