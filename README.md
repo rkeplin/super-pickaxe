@@ -8,7 +8,7 @@ This mod adds a **Super Pickaxe** to Minecraft that:
 - Mines in a **3x3x3 area** instead of just one block
 - Has the same durability and mining level as a **diamond pickaxe**
 - Features a **bright green texture**
-- Has a custom crafting recipe (3 cobblestone on top, 2 sticks below)
+- Has a custom crafting recipe (1 cobblestone, 1 stone, 1 smooth stone on top, 2 sticks below)
 - Gives you torches as you mine (1 torch per 18 blocks mined)
 
 ## Download
