@@ -6,10 +6,10 @@ plugins {
 }
 
 version = '1.0'
-group = 'com.example.hammerpickaxe'
+group = 'com.example.superpickaxe'
 
 base {
-    archivesName = 'hammerpickaxe'
+    archivesName = 'superpickaxe'
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -23,7 +23,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
-                hammerpickaxe {
+                superpickaxe {
                     source sourceSets.main
                 }
             }
@@ -34,7 +34,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
-                hammerpickaxe {
+                superpickaxe {
                     source sourceSets.main
                 }
             }

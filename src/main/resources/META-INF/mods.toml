@@ -3,21 +3,21 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="hammerpickaxe"
+modId="superpickaxe"
 version="1.0"
-displayName="Hammer Pickaxe Mod"
+displayName="Super Pickaxe Mod"
 description='''
-A mod that adds a 3x3 mining pickaxe to Minecraft!
+A mod that adds a 3x3x3 mining pickaxe to Minecraft!
 '''
 
-[[dependencies.hammerpickaxe]]
+[[dependencies.superpickaxe]]
     modId="forge"
     mandatory=true
     versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.hammerpickaxe]]
+[[dependencies.superpickaxe]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1,1.21)"

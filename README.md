@@ -1,12 +1,15 @@
-# Hammer Pickaxe Mod - Build & Installation Instructions
+# Super Pickaxe Mod - Build & Installation Instructions
+
+<img src="src/main/resources/assets/superpickaxe/textures/item/super_pickaxe.png" alt="Super Pickaxe" width="150" height="150">
 
 ## What This Mod Does
 
-This mod adds a **Hammer Pickaxe** to Minecraft that:
-- Mines in a **3x3 area** instead of just one block
-- Has the same durability and mining level as a **stone pickaxe**
+This mod adds a **Super Pickaxe** to Minecraft that:
+- Mines in a **3x3x3 area** instead of just one block
+- Has the same durability and mining level as a **diamond pickaxe**
 - Features a **bright green texture**
 - Has a custom crafting recipe (3 cobblestone on top, 2 sticks below)
+- Gives you torches as you mine (1 torch per 18 blocks mined)
 
 ## Prerequisites
 
@@ -21,7 +24,7 @@ If you don't have Java 17, download it from: https://adoptium.net/
 
 1. Open Terminal and navigate to the mod directory:
    ```bash
-   cd /Users/robkeplin/IdeaProjects/minecraft
+   cd /Users/<user>/Desktop/Projects/minecraft/super-pickaxe
    ```
 
 2. Build the mod using Gradle:
@@ -33,7 +36,7 @@ If you don't have Java 17, download it from: https://adoptium.net/
 
 3. Once complete, your mod JAR file will be located at:
    ```
-   build/libs/hammerpickaxe-1.0.jar
+   build/libs/superpickaxe-1.0.jar
    ```
 
 ## How to Install the Mod
@@ -57,7 +60,7 @@ If you don't have Java 17, download it from: https://adoptium.net/
 
 3. Copy your compiled mod to the mods folder:
    ```bash
-   cp build/libs/hammerpickaxe-1.0.jar ~/Library/Application\ Support/minecraft/mods/
+   cp build/libs/superpickaxe-1.0.jar ~/Library/Application\ Support/minecraft/mods/
    ```
 
 ### Step 3: Enable and Use the Mod
@@ -67,25 +70,24 @@ If you don't have Java 17, download it from: https://adoptium.net/
 3. Click "Play"
 4. Once in-game, the mod is automatically enabled!
 
-## How to Craft the Hammer Pickaxe
+## How to Craft the Super Pickaxe
 
 Open a crafting table and arrange:
 
 ```
-[Cobblestone] [Cobblestone] [Cobblestone]
+[Cobblestone] [Stone] [Smooth Stone]
               [Stick]
               [Stick]
 ```
 
-This is slightly more expensive than a regular stone pickaxe (which uses only 3 cobblestone total).
+This requires cobblestone, stone, and smooth stone, making it progressively more expensive but worth the 3x3x3 mining power!
 
-## Using the Hammer Pickaxe
+## Using the Super Pickaxe
 
-- Equip the bright green Hammer Pickaxe
-- Mine any block that a stone pickaxe can mine
-- It will automatically mine a 3x3 area:
-  - If facing horizontally: mines in an XY plane (3 wide, 3 tall)
-  - If facing up/down: mines in an XZ plane (3x3 horizontal)
+- Equip the bright green Super Pickaxe
+- Mine any block that a diamond pickaxe can mine
+- It will automatically mine a 3x3x3 area (27 blocks total) around the block you mine
+- Every 18 blocks you mine, you'll receive a torch automatically
 
 ## Troubleshooting
 
@@ -98,7 +100,7 @@ This is slightly more expensive than a regular stone pickaxe (which uses only 3 
 - Verify the JAR is in the correct mods folder
 - Check logs at: `~/Library/Application Support/minecraft/logs/latest.log`
 
-**Hammer Pickaxe has missing texture?**
+**Super Pickaxe has missing texture?**
 - The texture should be bright green
 - If it appears purple/black, rebuild the mod: `./gradlew clean build`
 
@@ -106,14 +108,14 @@ This is slightly more expensive than a regular stone pickaxe (which uses only 3 
 
 To modify the mod:
 
-1. Edit the source files in `src/main/java/com/example/hammerpickaxe/`
+1. Edit the source files in `src/main/java/com/example/superpickaxe/`
 2. Rebuild: `./gradlew build`
 3. Copy the new JAR to the mods folder
 4. Restart Minecraft
 
 Key files:
-- `HammerPickaxeItem.java` - The pickaxe logic and 3x3 mining
-- `src/main/resources/data/hammerpickaxe/recipes/` - Crafting recipe
-- `src/main/resources/assets/hammerpickaxe/textures/item/` - Bright green texture
+- `SuperPickaxeItem.java` - The pickaxe logic and 3x3x3 mining
+- `src/main/resources/data/superpickaxe/recipes/` - Crafting recipe
+- `src/main/resources/assets/superpickaxe/textures/item/` - Bright green texture
 
-Enjoy your new 3x3 mining pickaxe! 🟢⛏️
+Enjoy your new 3x3x3 mining pickaxe! 🟢⛏️

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "hammerpickaxe:item/hammer_pickaxe"
+    "layer0": "superpickaxe:item/super_pickaxe"
   }
 }

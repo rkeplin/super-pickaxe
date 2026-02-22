@@ -7,4 +7,4 @@ run:
 	./gradlew runClient
 
 deploy:
-	cp build/libs/hammerpickaxe-1.0.jar ~/Library/Application\ Support/minecraft/mods/
+	cp build/libs/superpickaxe-1.0.jar ~/Library/Application\ Support/minecraft/mods/

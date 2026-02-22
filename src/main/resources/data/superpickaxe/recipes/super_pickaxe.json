@@ -1,20 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
-    " S ",
-    " S "
+    "CSM",
+    " T ",
+    " T "
   ],
   "key": {
     "C": {
       "item": "minecraft:cobblestone"
     },
     "S": {
+      "item": "minecraft:stone"
+    },
+    "M": {
+      "item": "minecraft:smooth_stone"
+    },
+    "T": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "hammerpickaxe:hammer_pickaxe",
+    "item": "superpickaxe:super_pickaxe",
     "count": 1
   }
 }

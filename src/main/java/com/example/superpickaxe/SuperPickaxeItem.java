@@ -1,4 +1,4 @@
-package com.example.hammerpickaxe;
+package com.example.superpickaxe;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -16,11 +16,11 @@ import net.minecraftforge.common.Tags;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HammerPickaxeItem extends DiggerItem {
+public class SuperPickaxeItem extends DiggerItem {
     private static final String BLOCKS_MINED_KEY = "BlocksMined";
     private static final int TORCH_DROP_INTERVAL = 18;
 
-    public HammerPickaxeItem(Properties properties) {
+    public SuperPickaxeItem(Properties properties) {
         super(5.0F, -2.0F, Tiers.DIAMOND, Tags.Blocks.ORES, properties);
     }
 
