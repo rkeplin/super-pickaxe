@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="hammerpickaxe"
+version="1.0"
+displayName="Hammer Pickaxe Mod"
+description='''
+A mod that adds a 3x3 mining pickaxe to Minecraft!
+'''
+
+[[dependencies.hammerpickaxe]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hammerpickaxe]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

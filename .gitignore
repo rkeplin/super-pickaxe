@@ -1,0 +1,15 @@
+# IDE
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+gradle.zip
+
+# Minecraft Forge
+run/
+forge-*.log
+
+# macOS
+.DS_Store
